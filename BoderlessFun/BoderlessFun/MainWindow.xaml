@@ -1,0 +1,16 @@
+﻿<Window x:Class="BoderlessFun.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="253" Width="439">
+    <Grid Height="152" Width="387">
+        <Button Content="Reload" Height="23" HorizontalAlignment="Left" Margin="287,7,0,0" Name="btnReloadProcesses" VerticalAlignment="Top" Width="95" Click="btnReloadProcesses_Click" />
+        <Button Content="SetBorderless" IsEnabled="False" Height="46" HorizontalAlignment="Left" Margin="12,36,0,0" Name="btnSetBorderless" VerticalAlignment="Top" Width="98"  Click="btnSetBorderless_Click" />
+        <Button Content="UnsetBorderless" IsEnabled="False" Height="46" HorizontalAlignment="Left"  Name="btnUnsetBorderless" VerticalAlignment="Top" Width="98" Click="btnUnsetBorderless_Click" Margin="12,88,0,0" />
+        <Button Content="AddAutoBorderless" IsEnabled="False" Height="32" HorizontalAlignment="Left"  Name="btnAddAutoBorderless" VerticalAlignment="Top" Width="125" Click="btnAddAutoBorderless_Click" Margin="250,73,0,0" />
+        <Button Content="RemoveAutoBorderless" IsEnabled="False" Height="29" HorizontalAlignment="Left"  Name="btnRemoveAutoBorderless" VerticalAlignment="Top" Width="125" Click="btnRemoveAutoBorderless_Click" Margin="250,111,0,0" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="12,7,0,0" Name="ddlProcesses" VerticalAlignment="Top" Width="269" SelectionChanged="ddlProcesses_SelectionChanged" />
+        <RadioButton Content="Resize" IsChecked="True" Height="16" HorizontalAlignment="Left" Margin="130,36,0,0" Name="rbResize" GroupName="resize"  VerticalAlignment="Top" Checked="rbResize_Checked" />
+        <RadioButton Content="Don't Resize" Height="16" HorizontalAlignment="Left" Margin="130,66,0,0" Name="rbDontResize" GroupName="resize" VerticalAlignment="Top" Checked="rbResize_Checked" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="114,88,0,0" Name="ddlScreen" VerticalAlignment="Top" Width="130" SelectionChanged="ddlScreen_SelectionChanged" />
+    </Grid>
+</Window>

@@ -1,0 +1,29 @@
+BorderlessFun
+This small tool can remove the window border and resize the same window to fullscreen.
+It is intended for games which doesn't provide a windowed fullscreen mode.
+
+NOTE: This is still a prototype and not intended for daily use.
+
+The tool works, however is not polished.
+Hotkeys: 
+CTRL-WIN-X -> Make active window borderless.
+CTRL-WIN-Y -> Restore border to default.
+
+GUI Functions:
+Resize: resizes the window to fullscreen and remove border.
+Don't Resize: only remove border.
+Display: Screen on wich the window will be resized, if resize is enabled.
+AutoBorderless: remove border, if resize is enabled also resize, as soon as a matching process is started.
+Borderless: remove border, if resize is enabled also resize.
+
+
+Missing Features:
+MAJOR: Storage of previos window styles and position/size for restore (for allowing safe reset of original styles)
+MAJOR: Persistant storage of "auto borderless" processes.
+MINOR: Auto-Reload of Process list on changes (if Borderless window has focus)
+
+
+Tested with:
+L.A. Noire (which was also the reason why I wrote this tool, the missing windowed fullscreen was anoying...)
+Lucid
+and more (don't remember all of them).
