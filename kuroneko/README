@@ -1,0 +1,7 @@
+Kuroneko
+A small website loading time messurement tool based on Awesomium (https://awesomium.com/).
+
+This version is based on Awesomium 1.7 RC2.
+It reports the DomReady and Loaded time of any webpage.
+In an upcoming version, it will also provide a detailed request log and timer.
+Since Awesomium 1.7 RC2 doesn't provide a resource inspector yet I have to wait for RC3 (or whenever it's done).
