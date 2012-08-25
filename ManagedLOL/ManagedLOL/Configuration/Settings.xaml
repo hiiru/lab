@@ -1,0 +1,29 @@
+﻿<Window x:Class="ManagedLOL.Configuration.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ManagedLOL Settings" Height="388" Width="359">
+    <DockPanel  Name="dockSettings">
+        <Grid DockPanel.Dock="Bottom" Height="35">
+            <Button Content="Cancel" Height="23" HorizontalAlignment="Left" Margin="257,6,0,0" Name="btnCancel" VerticalAlignment="Top" Width="75" Click="btnCancel_Click" />
+            <Button Content="Save" Height="23" HorizontalAlignment="Left" Margin="6,6,0,0" Name="btnSave" VerticalAlignment="Top" Width="75" Click="btnSave_Click" />
+        </Grid>
+        <TabControl Name="ctlTabs">
+            <TabItem Header="Creep Timer" Name="tabCreepTimer">
+                <Grid>
+                    <Label Content="Display Mode:" Height="28" HorizontalAlignment="Left" Margin="7,6,0,0" Name="lblDisplayMode" VerticalAlignment="Top" />
+                    <RadioButton Content="Overlay" Height="16" HorizontalAlignment="Left" Margin="98,11,0,0" Name="rbtOverlay" VerticalAlignment="Top" GroupName="CT_DisplayMode" Checked="CT_DisplayMode_Changed" />
+                    <RadioButton Content="Window" Height="16" HorizontalAlignment="Left" Margin="168,11,0,0" Name="rbtWindow" VerticalAlignment="Top" GroupName="CT_DisplayMode" Checked="CT_DisplayMode_Changed" />
+                    <Label Content="Screen:" Height="28" HorizontalAlignment="Left" Margin="7,40,0,0" Name="lblScreen" VerticalAlignment="Top" />
+                    <ComboBox Height="23" HorizontalAlignment="Left" Margin="98,45,0,0" Name="ddlScreen" VerticalAlignment="Top" Width="130" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Item Changer" Name="tabItemChanger">
+                <Grid>
+                    <Label Content="LOL Path:" Height="28" HorizontalAlignment="Left" Margin="6,6,0,0" Name="label1" VerticalAlignment="Top" />
+                    <TextBox Height="23" HorizontalAlignment="Right" Margin="0,8,29,0" Name="txtIC_LOLPath" VerticalAlignment="Top" Width="226" TextChanged="txtIC_LOLPath_TextChanged" />
+                    <Button Content="..." Height="23" HorizontalAlignment="Left" Margin="304,7,0,0" Name="btnSelectLolPath" VerticalAlignment="Top" Width="17" Click="btnSelectLolPath_Click" />
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>

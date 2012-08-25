@@ -1,0 +1,117 @@
+﻿<Window x:Class="ManagedLOL.ItemChanger.ItemChanger"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ItemChanger" Height="500" Width="700" Loaded="Window_Loaded" UseLayoutRounding="False" xmlns:my="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <ControlTemplate x:Key="Template1" TargetType="ComboBox">
+            <Grid Name="MainGrid" SnapsToDevicePixels="True">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Popup AllowsTransparency="True" Grid.ColumnSpan="2" IsOpen="{Binding Path=IsDropDownOpen, RelativeSource={RelativeSource TemplatedParent}}" Margin="1" Name="PART_Popup" Placement="Bottom" PopupAnimation="{DynamicResource {x:Static SystemParameters.ComboBoxPopupAnimationKey}}">
+                    <my:SystemDropShadowChrome Color="Transparent" MaxHeight="{TemplateBinding ComboBox.MaxDropDownHeight}" MinWidth="{Binding Path=ActualWidth, ElementName=MainGrid}" Name="Shdw">
+                        <Border Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.WindowFrameBrushKey}}" BorderThickness="1" Name="DropDownBorder">
+                            <ScrollViewer Name="DropDownScrollViewer">
+                                <Grid RenderOptions.ClearTypeHint="Enabled">
+                                    <Canvas Height="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="0">
+                                        <Rectangle Fill="Black" Height="{Binding Path=ActualHeight, ElementName=DropDownBorder}" Name="OpaqueRect" Width="{Binding Path=ActualWidth, ElementName=DropDownBorder}" />
+                                    </Canvas>
+                                    <ItemsPresenter KeyboardNavigation.DirectionalNavigation="Contained" Name="ItemsPresenter" SnapsToDevicePixels="{TemplateBinding UIElement.SnapsToDevicePixels}" />
+                                </Grid>
+                            </ScrollViewer>
+                        </Border>
+                    </my:SystemDropShadowChrome>
+                </Popup>
+                <ToggleButton Background="Black" BorderBrush="Transparent" IsChecked="{Binding Path=IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}">
+                    <ToggleButton.Style>
+                        <Style TargetType="ToggleButton">
+                            <Setter Property="FrameworkElement.OverridesDefaultStyle" Value="True" />
+                            <Setter Property="Control.IsTabStop" Value="False" />
+                            <Setter Property="UIElement.Focusable" Value="False" />
+                            <Setter Property="ButtonBase.ClickMode" Value="Press" />
+                            <Setter Property="Control.Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="ToggleButton">
+                                        <my:ButtonChrome Background="Black" BorderBrush="Transparent" Name="Chrome"  SnapsToDevicePixels="True">
+                                        </my:ButtonChrome>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="ToggleButton.IsChecked" Value="True">
+                                                <Setter Property="my:ButtonChrome.RenderPressed" TargetName="Chrome" Value="True" />
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </ToggleButton.Style>
+                </ToggleButton>
+                <ContentPresenter Content="{TemplateBinding ComboBox.SelectionBoxItem}" ContentStringFormat="{TemplateBinding ComboBox.SelectionBoxItemStringFormat}" IsHitTestVisible="False" Margin="0,0,0,0">
+                    <ContentPresenter.ContentTemplate>
+                        <DataTemplate>
+                            <Grid Background="DarkGray">
+                                <TextBlock Text="No&#x0a;Champion&#x0a;Selected&#x0a;(click here)" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" Panel.ZIndex="1" FontWeight="Bold" FontSize="16" />
+                                <Image Source="{Binding Path=Value}" Stretch="Fill" Panel.ZIndex="5" Margin="0,0,0,0" />
+                            </Grid>
+                        </DataTemplate>
+                    </ContentPresenter.ContentTemplate>
+                </ContentPresenter>
+            </Grid>
+            <ControlTemplate.Triggers>
+                <Trigger Property="Popup.HasDropShadow" SourceName="PART_Popup" Value="True">
+                    <Setter Property="FrameworkElement.Margin" TargetName="Shdw" Value="0,0,5,5" />
+                    <Setter Property="my:SystemDropShadowChrome.Color" TargetName="Shdw" Value="#71000000" />
+                </Trigger>
+                <Trigger Property="ItemsControl.HasItems" Value="False">
+                    <Setter Property="FrameworkElement.Height" TargetName="DropDownBorder" Value="95" />
+                </Trigger>
+                <Trigger Property="ItemsControl.IsGrouping" Value="True">
+                    <Setter Property="ScrollViewer.CanContentScroll" Value="False" />
+                </Trigger>
+                <Trigger Property="ScrollViewer.CanContentScroll" SourceName="DropDownScrollViewer" Value="False">
+                    <Setter Property="Canvas.Top" TargetName="OpaqueRect" Value="{Binding Path=VerticalOffset, ElementName=DropDownScrollViewer}" />
+                    <Setter Property="Canvas.Left" TargetName="OpaqueRect" Value="{Binding Path=HorizontalOffset, ElementName=DropDownScrollViewer}" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+    </Window.Resources>
+    <Grid Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="96"></ColumnDefinition>
+            <ColumnDefinition Width="14"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Width="96" Background="Black" Panel.ZIndex="10" HorizontalAlignment="Left">
+            <ComboBox Name="ddlHero" Padding="0,0,0,0" OverridesDefaultStyle="false" Height="96" MaxDropDownHeight="403" Template="{StaticResource Template1}" SelectionChanged="ddlHero_SelectionChanged" IsTextSearchEnabled="True" TextSearch.TextPath="Key">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <DockPanel Height="40">
+                            <Image Source="{Binding Path=Value}" DockPanel.Dock="Left" />
+                            <TextBlock Text="{Binding Path=Key}" VerticalAlignment="Center" Margin="5,0,0,0" FontSize="20" FontWeight="Bold" Foreground="White" />
+                        </DockPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <Label Content="" Height="32" HorizontalAlignment="Left" Name="lblName" VerticalAlignment="Top" Background="Black" Foreground="White" FontWeight="Bold" FontSize="14" />
+            <Button Content="Delete" Height="23" Name="btnDelete" Width="75" IsEnabled="False" Margin="0,0,0,6" Click="btnDelete_Click" />
+            <Button Content="Save" Height="23" Name="btnSave" Width="75" IsEnabled="False" Margin="0,0,0,25" Click="btnSave_Click" />
+            <Button Content="Export" Height="23" Name="btnExport" Width="75" IsEnabled="False" Margin="0,0,0,6" />
+            <Button Content="Import" Height="23" Name="btnImport" Width="75" IsEnabled="False" />
+        </StackPanel>
+        <DockPanel Name="dockpanel" Grid.Column="3" Panel.ZIndex="5">
+            <Grid DockPanel.Dock="Top" Height="75">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="450"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <WrapPanel Name="wrapItemSlots" Grid.Column="0" />
+                <ToggleButton Content="Classic" Grid.Column="1" HorizontalAlignment="Left" Name="btnClassic" VerticalAlignment="Top" Width="75" Margin="0,6.757,0,0" IsChecked="True" Checked="modeButton_Checked" />
+                <ToggleButton Content="Dominion" Grid.Column="1" HorizontalAlignment="Left" Name="btnDominion" VerticalAlignment="Top" Width="75" Margin="0,39,0,0" Checked="modeButton_Checked" />
+            </Grid>
+            <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" HorizontalAlignment="Left" MaxWidth="970" FlowDirection="RightToLeft">
+                <WrapPanel Name="wrapItems" FlowDirection="LeftToRight" />
+            </ScrollViewer>
+        </DockPanel>
+        <Image Name="imgBackground" Panel.ZIndex="0" Stretch="Uniform" HorizontalAlignment="Right"  Grid.Column="3" />
+    </Grid>
+</Window>

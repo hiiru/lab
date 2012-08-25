@@ -1,0 +1,14 @@
+ManagedLOL
+ManagedLOL is a small League of Legends tool still in it's alpha state.
+It provides a Creep Timer overlay and a Item build editor.
+
+The Creep Timer is a simple borderless windows which stays on top of everything, it has an icon for each creep spawn which can be started by left clicking. A running timer can be restarted by doubleclicking it or reseted by right clicking.
+Also the whole window can be collapsed.
+
+The item build editor reads all the champions from the LOL directory, then provides you the possibillity to choose and save your item build.
+
+
+It works as it is, however the UI still requires some work and not all my intended features are available.
+
+
+Note: I created this tool mainly to learn WPF.

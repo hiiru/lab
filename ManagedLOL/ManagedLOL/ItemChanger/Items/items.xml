@@ -1,0 +1,789 @@
+<?xml version="1.0"?>
+<ArrayOfItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item>
+    <ID>1001</ID>
+    <Name>Boots of Speed</Name>
+    <ImageFile>1001_Boots_of_Speed.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1004</ID>
+    <Name>Faerie Charm</Name>
+    <ImageFile>1004_Faerie_Charm.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1005</ID>
+    <Name>Meki Pendant</Name>
+    <ImageFile>1005_Meki_Pendant.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1006</ID>
+    <Name>Rejuvenation Bead</Name>
+    <ImageFile>1006_Rejuvenation_Bead.png</ImageFile>
+    <Available>None</Available>
+  </Item>
+  <Item>
+    <ID>1007</ID>
+    <Name>Regrowth Pendant</Name>
+    <ImageFile>1007_Regrowth_Pendant.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1011</ID>
+    <Name>Giant's Belt</Name>
+    <ImageFile>1011_Mighty_Waistband_of_the_Reaver.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1018</ID>
+    <Name>Cloak of Agility</Name>
+    <ImageFile>1018_Cloak_of_Agility.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1026</ID>
+    <Name>Blasting Wand</Name>
+    <ImageFile>1026_Blasting_Band.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1027</ID>
+    <Name>Sapphire Crystal</Name>
+    <ImageFile>1027_Sapphire_Sphere.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1028</ID>
+    <Name>Ruby Crystal</Name>
+    <ImageFile>1028_Ruby_Sphere.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1029</ID>
+    <Name>Cloth Armor</Name>
+    <ImageFile>1029_Cloth_Armour.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1031</ID>
+    <Name>Chain Vest</Name>
+    <ImageFile>1031_Chain_Vest.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1033</ID>
+    <Name>Null-Magic Mantle</Name>
+    <ImageFile>1033_Elementium_Threaded_Cloak.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1036</ID>
+    <Name>Long Sword</Name>
+    <ImageFile>1036_Long_Sword.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1037</ID>
+    <Name>Pickaxe</Name>
+    <ImageFile>1037_Broadsword.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1038</ID>
+    <Name>BF Sword</Name>
+    <ImageFile>1038_BF_Sword.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1042</ID>
+    <Name>Dagger</Name>
+    <ImageFile>1042_Dagger.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1043</ID>
+    <Name>Recurve Bow</Name>
+    <ImageFile>1043_Steel_Stiletto.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1051</ID>
+    <Name>Brawler's Gloves</Name>
+    <ImageFile>1051_Brawlers_Gloves.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1052</ID>
+    <Name>Amplifying Tome</Name>
+    <ImageFile>1052_Amplifying_Scepter.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1053</ID>
+    <Name>Vampiric Scepter</Name>
+    <ImageFile>3054_Scepter_of_Death.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1054</ID>
+    <Name>Doran's Shield</Name>
+    <ImageFile>033_Buckler.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1055</ID>
+    <Name>Doran's Blade</Name>
+    <ImageFile>PetAttack.png</ImageFile>
+    <Available>Classic</Available>
+  </Item>
+  <Item>
+    <ID>1056</ID>
+    <Name>Doran's Ring</Name>
+    <ImageFile>165_Harmony_Ring.png</ImageFile>
+    <Available>Classic</Available>
+  </Item>
+  <Item>
+    <ID>1057</ID>
+    <Name>Negatron Cloak</Name>
+    <ImageFile>161_Elementium_Woven_Mantle.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1058</ID>
+    <Name>Needlessly Large Rod</Name>
+    <ImageFile>1058_Needlessly_Large_Wand.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>1062</ID>
+    <Name>ProspectorsBlade</Name>
+    <ImageFile>1062_ProspectorsBlade.png</ImageFile>
+    <Available>Dominion</Available>
+  </Item>
+  <Item>
+    <ID>1063</ID>
+    <Name>ProspectorsRing</Name>
+    <ImageFile>1063_ProspectorsRing.png</ImageFile>
+    <Available>Dominion</Available>
+  </Item>
+  <Item>
+    <ID>2003</ID>
+    <Name>Health Potion</Name>
+    <ImageFile>2003_Regeneration_Potion.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>2004</ID>
+    <Name>Mana Potion</Name>
+    <ImageFile>2004_Flask_of_Crystal_Water.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>2037</ID>
+    <Name>Elixir of Fortitude</Name>
+    <ImageFile>2037_Potion_of_Giant_Strength.png</ImageFile>
+    <Available>Classic</Available>
+  </Item>
+  <Item>
+    <ID>2038</ID>
+    <Name>Elixir of Agility</Name>
+    <ImageFile>2038_Potion_of_Elusiveness.png</ImageFile>
+    <Available>Classic</Available>
+  </Item>
+  <Item>
+    <ID>2039</ID>
+    <Name>Elixir of Brilliance</Name>
+    <ImageFile>2039_Potion_of_Brilliance.png</ImageFile>
+    <Available>Classic</Available>
+  </Item>
+  <Item>
+    <ID>2042</ID>
+    <Name>Oracle's Elixir</Name>
+    <ImageFile>2042_Rejuvenation_Potion_1.png</ImageFile>
+    <Available>Classic</Available>
+  </Item>
+  <Item>
+    <ID>2043</ID>
+    <Name>Vision Ward</Name>
+    <ImageFile>2043_Rejuvenation_Potion_2.png</ImageFile>
+    <Available>Classic</Available>
+  </Item>
+  <Item>
+    <ID>2044</ID>
+    <Name>Sight Ward</Name>
+    <ImageFile>2044_Rejuvenation_Potion_3.png</ImageFile>
+    <Available>Classic</Available>
+  </Item>
+  <Item>
+    <ID>2047</ID>
+    <Name>Oracle's Extract</Name>
+    <ImageFile>2047_OraclesExtract.png</ImageFile>
+    <Available>Dominion</Available>
+  </Item>
+  <Item>
+    <ID>3001</ID>
+    <Name>Abyssal Scepter</Name>
+    <ImageFile>3001_Abyssal_Scepter.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3003</ID>
+    <Name>Archangel's Staff</Name>
+    <ImageFile>3003_Archangels_Staff_of_Apocalypse.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3004</ID>
+    <Name>Manamune</Name>
+    <ImageFile>3004_Manamune.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3005</ID>
+    <Name>Atma's Impaler</Name>
+    <ImageFile>3005_Atmas_Impaler.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3006</ID>
+    <Name>Berserker's Greaves</Name>
+    <ImageFile>3006_Berserkers_Greaves.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3009</ID>
+    <Name>Boots of Swiftness</Name>
+    <ImageFile>3009_Boots_of_Teleportation.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3010</ID>
+    <Name>Catalyst the Protector</Name>
+    <ImageFile>3010_Catalyst_the_Protector.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3020</ID>
+    <Name>Sorcerer's Shoes</Name>
+    <ImageFile>3020_Flamewalkers.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3022</ID>
+    <Name>Frozen Mallet</Name>
+    <ImageFile>3022_Frozen_Heart.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3024</ID>
+    <Name>Glacial Shroud</Name>
+    <ImageFile>3024_Glacial_Shroud.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3026</ID>
+    <Name>Guardian Angel</Name>
+    <ImageFile>3026_Guardian_Angel.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3027</ID>
+    <Name>Rod of Ages</Name>
+    <ImageFile>3027_Guinsoos_Rod_of_Oblivion.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3028</ID>
+    <Name>Chalice of Harmony</Name>
+    <ImageFile>3028_Harmony_Ring.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3031</ID>
+    <Name>Infinity Edge</Name>
+    <ImageFile>3031_Infinity_Edge.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3035</ID>
+    <Name>Last Whisper</Name>
+    <ImageFile>3035_Last_Whisper.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3037</ID>
+    <Name>Mana Manipulator</Name>
+    <ImageFile>3037_Mana_Manipulator.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3041</ID>
+    <Name>Mejai's Soulstealer</Name>
+    <ImageFile>3041_Mejais_Soulstealer.png</ImageFile>
+    <Available>Classic</Available>
+  </Item>
+  <Item>
+    <ID>3044</ID>
+    <Name>Phage</Name>
+    <ImageFile>3044_Phage.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3046</ID>
+    <Name>Phantom Dancer</Name>
+    <ImageFile>3046_Phantom_Dancer.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3047</ID>
+    <Name>Ninja Tabi</Name>
+    <ImageFile>3047_Phase_Striders.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3050</ID>
+    <Name>Zeke's Herald</Name>
+    <ImageFile>3050_Rallying_Banner.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3057</ID>
+    <Name>Sheen</Name>
+    <ImageFile>3057_Sheen.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3065</ID>
+    <Name>Spirit Visage</Name>
+    <ImageFile>3065_Spirit_Visage.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3067</ID>
+    <Name>Kindlegem</Name>
+    <ImageFile>3067_Kindlegem.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3068</ID>
+    <Name>Sunfire Cape</Name>
+    <ImageFile>3068_Sunfire_Cape.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3069</ID>
+    <Name>Shurelya's Reverie</Name>
+    <ImageFile>3069_Shurelyas_Firecrest.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3070</ID>
+    <Name>Tear of the Goddess</Name>
+    <ImageFile>3070_Tear_of_the_Goddess.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3071</ID>
+    <Name>The Black Cleaver</Name>
+    <ImageFile>3071_The_Black_Cleaver.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3072</ID>
+    <Name>The Bloodthirster</Name>
+    <ImageFile>3072_The_Bloodthirster.png</ImageFile>
+    <Available>Classic</Available>
+  </Item>
+  <Item>
+    <ID>3075</ID>
+    <Name>Thornmail</Name>
+    <ImageFile>3075_Thornmail.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3077</ID>
+    <Name>Tiamat</Name>
+    <ImageFile>3077_Tiamat.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3078</ID>
+    <Name>Trinity Force</Name>
+    <ImageFile>3078_Trinity_Force.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3082</ID>
+    <Name>Warden's Mail</Name>
+    <ImageFile>3082_Wardens_Mail.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3083</ID>
+    <Name>Warmog's Armor</Name>
+    <ImageFile>3083_Warmog_The_Living_Armor.png</ImageFile>
+    <Available>Classic</Available>
+  </Item>
+  <Item>
+    <ID>3086</ID>
+    <Name>Zeal</Name>
+    <ImageFile>3086_Zeal.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3089</ID>
+    <Name>Rabadon's Deathcap</Name>
+    <ImageFile>3089_Banksys_Wizard_Hat.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3091</ID>
+    <Name>Wit's End</Name>
+    <ImageFile>3091_Wits_End.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3093</ID>
+    <Name>Avarice Blade</Name>
+    <ImageFile>3093_Avarice_Blade.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3096</ID>
+    <Name>Philosopher's Stone</Name>
+    <ImageFile>3062_Soul_Pendant.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3097</ID>
+    <Name>Emblem of Valor</Name>
+    <ImageFile>3052_Reverb_Coil.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3098</ID>
+    <Name>Kage's Lucky Pick</Name>
+    <ImageFile>3090_Thoughtbreaker.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3099</ID>
+    <Name>Soul Shroud</Name>
+    <ImageFile>3063_Soul_Shroud.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3100</ID>
+    <Name>Lich Bane</Name>
+    <ImageFile>126_Zeal_and_Sheen.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3101</ID>
+    <Name>Stinger</Name>
+    <ImageFile>059_Sheen.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3102</ID>
+    <Name>Banshee's Veil</Name>
+    <ImageFile>066_Sindoran_Shielding_Amulet.png</ImageFile>
+    <Available>Classic</Available>
+  </Item>
+  <Item>
+    <ID>3105</ID>
+    <Name>Aegis of the Legion</Name>
+    <ImageFile>034_Steel_Shield.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3106</ID>
+    <Name>Madred's Razors</Name>
+    <ImageFile>139_Strygwyrs_Reaver.png</ImageFile>
+    <Available>Classic</Available>
+  </Item>
+  <Item>
+    <ID>3108</ID>
+    <Name>Fiendish Codex</Name>
+    <ImageFile>113_Tome_of_Minor_Necro_Compulsion.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3109</ID>
+    <Name>Force of Nature</Name>
+    <ImageFile>3025_Gladiators_Pride.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3110</ID>
+    <Name>Frozen Heart</Name>
+    <ImageFile>122_Frozen_Heart.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3111</ID>
+    <Name>Mercury's Treads</Name>
+    <ImageFile>176_Rogues_Chucks.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3114</ID>
+    <Name>Malady</Name>
+    <ImageFile>3114_Malady.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3115</ID>
+    <Name>Nashor's Tooth</Name>
+    <ImageFile>3115_Nashors_Tooth.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3116</ID>
+    <Name>Rylai's Crystal Scepter</Name>
+    <ImageFile>3116_Rylais_Sceptre.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3117</ID>
+    <Name>Boots of Mobility</Name>
+    <ImageFile>3004_Assault_Treads.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3123</ID>
+    <Name>Executioner's Calling</Name>
+    <ImageFile>3069_Sword_of_Light_and_Shadow.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3124</ID>
+    <Name>Guinsoo's Rageblade</Name>
+    <ImageFile>3064_Spike_the_Ripper.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3126</ID>
+    <Name>Madred's Bloodrazor</Name>
+    <ImageFile>3126_Madreds_Bloodrazor.png</ImageFile>
+    <Available>Classic</Available>
+  </Item>
+  <Item>
+    <ID>3128</ID>
+    <Name>Deathfire Grasp</Name>
+    <ImageFile>055_Borses_Staff_of_Apocalypse.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3132</ID>
+    <Name>Heart of Gold</Name>
+    <ImageFile>3051_Renewal_Tunic.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3134</ID>
+    <Name>The Brutalizer</Name>
+    <ImageFile>1034_Big_Stick.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3135</ID>
+    <Name>Void Staff</Name>
+    <ImageFile>3088_Zettas_Mana-Stick.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3136</ID>
+    <Name>Haunting Guise</Name>
+    <ImageFile>3014_Doppleganker.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3138</ID>
+    <Name>Leviathan</Name>
+    <ImageFile>3138_Leviathan.png</ImageFile>
+    <Available>Classic</Available>
+  </Item>
+  <Item>
+    <ID>3140</ID>
+    <Name>Quicksilver Sash</Name>
+    <ImageFile>1008_Sash_of_Valor.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3141</ID>
+    <Name>Sword of the Occult</Name>
+    <ImageFile>3034_Kenyus_Kukri.png</ImageFile>
+    <Available>Classic</Available>
+  </Item>
+  <Item>
+    <ID>3142</ID>
+    <Name>Youmuu's Ghostblade</Name>
+    <ImageFile>3142_Youmus_Spectral_Blade.png</ImageFile>
+    <Available>None</Available>
+  </Item>
+  <Item>
+    <ID>3143</ID>
+    <Name>Randuin's Omen</Name>
+    <ImageFile>3143_Randuins_Omen.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3144</ID>
+    <Name>Bilgewater Cutlass</Name>
+    <ImageFile>3144_Bilgewater_Cutlass.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3145</ID>
+    <Name>Hextech Revolver</Name>
+    <ImageFile>3145_Hextech_Revolver.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3146</ID>
+    <Name>Hextech Gunblade</Name>
+    <ImageFile>3146_Hextech_Gunblade.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3152</ID>
+    <Name>Will of the Ancients </Name>
+    <ImageFile>2008_Tome_of_Combat_Mastery.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3154</ID>
+    <Name>Wriggle's Lantern</Name>
+    <ImageFile>3154_WriggleLantern.png</ImageFile>
+    <Available>Classic</Available>
+  </Item>
+  <Item>
+    <ID>3155</ID>
+    <Name>Hexdrinker</Name>
+    <ImageFile>3155_Hexdrinker.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3156</ID>
+    <Name>Maw of Malmortius</Name>
+    <ImageFile>3156_PhaseBlade.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3157</ID>
+    <Name>Zhonya's Hourglass</Name>
+    <ImageFile>3157_Zhonyas_Hourglass.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3158</ID>
+    <Name>Ionian Boots of Lucidity</Name>
+    <ImageFile>3158_Ionian_Boots_of_Lucidity.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3165</ID>
+    <Name>Morello's Evil Tome</Name>
+    <ImageFile>3165_Noxusnomicon.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3170</ID>
+    <Name>Moonflair Spellblade</Name>
+    <ImageFile>3170_Moonflair_Spellblade.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3172</ID>
+    <Name>Cloak and Dagger</Name>
+    <ImageFile>3172_Cloak_and_Dagger.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3173</ID>
+    <Name>Eleisa's Miracle</Name>
+    <ImageFile>3173_Eleisas_Miracle.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3174</ID>
+    <Name>Athene's Unholy Grail</Name>
+    <ImageFile>3174_AthenesUnholyGrail.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3178</ID>
+    <Name>Ionic Spark</Name>
+    <ImageFile>3178_IonicSpark.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3180</ID>
+    <Name>Odyn's Veil</Name>
+    <ImageFile>3180_OdynsVeil.png</ImageFile>
+    <Available>Dominion</Available>
+  </Item>
+  <Item>
+    <ID>3181</ID>
+    <Name>Sanguine Blade</Name>
+    <ImageFile>3181_SanguineBlade.png</ImageFile>
+    <Available>Dominion</Available>
+  </Item>
+  <Item>
+    <ID>3184</ID>
+    <Name>Entropy</Name>
+    <ImageFile>3184_FrozenWarhammer.png</ImageFile>
+    <Available>Dominion</Available>
+  </Item>
+  <Item>
+    <ID>3185</ID>
+    <Name>The Lightbringer</Name>
+    <ImageFile>3185_Lightbringer.png</ImageFile>
+    <Available>Dominion</Available>
+  </Item>
+  <Item>
+    <ID>3186</ID>
+    <Name>Kitae's Bloodrazor</Name>
+    <ImageFile>3186_KitaesBloodrazor.png</ImageFile>
+    <Available>Dominion</Available>
+  </Item>
+  <Item>
+    <ID>3187</ID>
+    <Name>Hextech Sweeper</Name>
+    <ImageFile>3187_HextechSweeper.png</ImageFile>
+    <Available>Dominion</Available>
+  </Item>
+  <Item>
+    <ID>3190</ID>
+    <Name>Locket of the Iron Solari</Name>
+    <ImageFile>3190_Crest_of_the_iron_solari.png</ImageFile>
+    <Available>Both</Available>
+  </Item>
+  <Item>
+    <ID>3196</ID>
+    <Name>Augment: Power</Name>
+    <ImageFile>3196_AugmentQ.png</ImageFile>
+    <Available>Viktor</Available>
+  </Item>
+  <Item>
+    <ID>3197</ID>
+    <Name>Augment: Gravity</Name>
+    <ImageFile>3197_AugmentW.png</ImageFile>
+    <Available>Viktor</Available>
+  </Item>
+  <Item>
+    <ID>3198</ID>
+    <Name>Augment: Death</Name>
+    <ImageFile>3198_AugmentE.png</ImageFile>
+    <Available>Viktor</Available>
+  </Item>
+  <Item>
+    <ID>3200</ID>
+    <Name>The Hex Core</Name>
+    <ImageFile>3200_HexCore.png</ImageFile>
+    <Available>Viktor</Available>
+  </Item>
+</ArrayOfItem>
