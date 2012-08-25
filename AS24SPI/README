@@ -1,0 +1,19 @@
+AS24SPI is a proof of concept hybrid spider for autoscout24.ch, which demostrates how Awesomium could be used as an automated spidering engine.
+
+All that this tool does, is requesting the default page, selecting a single brand, starting a search, parsing the list and printing the list.
+It also renders two screenshots of the pages it spiders, so that it's possible to see what would be visible in a browser.
+
+
+
+It's main advantage is, that it's use the complete chrome engine, which means all the scripts and embeded objects can be used.
+In Theory it is possible to track and inject mouse events, so a user could be emulated, which makes it harder to detect the spider.
+
+I guess that with Awesomium it could also be possible to create a more advanced spider debuging suite, 
+which has a gui and directly displays the actions taken, maybe even creating some sort of spidering IDE.
+However since I currently have no use of spidered information, so I won't continue this project.
+
+
+
+This code requires that Awesomium 1.6 is installed (not included).
+Also I'm using HtmlAgilityPack (http://htmlagilitypack.codeplex.com/) to parse the HTML code, which is included in the libs folder.
+
